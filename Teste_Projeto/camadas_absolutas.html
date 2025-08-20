@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando camadas absolutas - HTML semantico</title>
+    <link rel="stylesheet" href="css/camadas_absolutas.css" type="text/css">
+    <style type="text/css">
+        
+     body{
+            font-size: 20px; /*Tamanho da fonte tem varias unidades de medida: px, pt, em, pcs, %, mm, cm*/
+            color: rgb(6, 94, 65);/*cor da fonte*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif;/*tipo da fonte*/
+            background-color: rgb(230, 226, 222);
+            background-image: url(/img/San\ Joji.jpg);/*Para colocar imagem de fundo*/
+            background-repeat: no-repeat; /*Para as imagens não repetirem*/
+            background-position: center center;
+            background-attachment: fixed ; /*A imagem fica fixa enquanto o conteudo fica passando */
+           /*background-size: cover; preenche toda a tela com a imagem*/
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Testendo Camadas Absolutas</h1>
+    <br><br><br>
+
+    <div id="camada1">
+        <p>Conteudo Camada 1</p>
+    </div>
+
+    <div id="camada2">
+        <p>Conteudo Camada 2</p>
+    </div>
+
+    <div id="camada3">
+        <p>Conteudo Camada 3</p>
+    </div>
+
+    <a href="index.html">
+        <div id="camada4">
+            <img src="img/sonic-devil.gif" alt="sonic-devil">
+        </div>
+    </a>
+
+    <a href="index.html">
+        <p class="voltaHome">VOLTAR PARA HOME</p>
+    </a>
+    
+
+
+</body>
+</html>
