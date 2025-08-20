@@ -1,0 +1,62 @@
+#div1{
+     position: absolute; /*Elemento sobreposto*/
+        left: 250px; /*Plano cartesiano trata-se do eixo X*/
+        top: 50px;  /*Plano cartesiano trata-se do eixo Y*/
+        width: 150px;
+        height: 120px;
+        background-color: rgb(106, 0, 255);
+        text-align: center;
+        font-size: 12px;
+        font-weight: bolder;
+        
+}
+
+#div2{
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 650px;
+    height: 120px;
+    background-color: rgb(46, 40, 50);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+
+#div3{
+    position: absolute;
+    left: 250px;
+    top: 170px;
+    height: 50px;
+    width: 800px;
+    background-color: green;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+   
+}
+
+#div4{
+    position: absolute;
+    left: 250px;
+    top: 220px;
+    height: 400px;
+    width: 784px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: rgb(0, 255, 51);
+    border: 8px solid black;
+}
+
+#div5{
+    position: absolute;
+    left: 250px;
+    top: 636px;
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(133, 95, 160);
+}

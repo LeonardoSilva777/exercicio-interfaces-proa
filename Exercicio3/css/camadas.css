@@ -1,0 +1,63 @@
+#fundo{
+    position: relative;
+    width: 85%;
+    height: 720px;
+    background-color: rgb(83, 82, 86);
+    margin: auto; /*Centraliza o Componente*/
+}
+
+
+/*rgb(143, 65, 252)*/
+#Camada1{
+    position: relative;
+    text-align: center;
+    width: 170px;
+    height: 120px;
+    background-color: rgb(143, 65, 252);
+    float: left; /*Encaixar á esquerda da camada 2*/
+    
+}
+
+/*rgb(46, 40, 50)*/
+#Camada2{
+    position: relative;
+    text-align: center;
+    background-color: rgb(46, 40, 50);
+    width: 857px;
+    height: 120px;
+    float: left;
+    
+}
+
+/*green*/
+#Camada3{
+    position: relative;
+    text-align: center;
+    background-color: green;
+    width: 1027px;
+    height: 60px;
+    float: left;
+}
+
+/*rgb(0, 255, 72)*/
+#Camada4{
+    position: relative;
+    text-align: center;
+    background-color: rgb(0, 255, 72);
+    border: 10px solid black;
+    width: 1007px;
+    height: 450px;
+    float: left;
+
+}
+
+/*rgb(133, 95, 160)*/
+#Camada5{
+    position: relative;
+    text-align: center;
+    background-color: rgb(133, 95, 160);
+    width: 1027px;
+    height: 70px;
+    float: left;
+}
+

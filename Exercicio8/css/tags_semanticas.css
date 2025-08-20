@@ -1,0 +1,187 @@
+/*CSS RESET*/ 
+/* o (*) representa tudo*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+/*Subistitui a fundo*/
+main{
+    position: relative;
+    width: 90%;
+    height: 800px;
+    background-color: rgb(92, 26, 154);
+    margin: auto;
+    font-size: 1.9em ;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+header h1{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex; /*Ativa recurso de alinhamento no componente*/ 
+    flex-direction: row ; /*Alinhamento em linha ou Coluna*/
+    align-items: center; /*Alinhamento vertical */
+    justify-content: center;/*Alinhamento xHorizontal*/
+    
+}
+
+header h1{ /*h1 esta dentro da Header*/
+    font-size: 30px;
+    color: white;
+    /*padding-top: 40px;*/ /*Mexe dentro do negocio*/ 
+}
+
+.nav_cima{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: blue;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav_cima a{
+    width: 100%;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    margin: -10px;
+    padding: 35px;
+}
+
+.nav_cima a:hover { 
+    color: black;
+    background-color: white;
+    width: 100%;
+    transition: all 1s;
+    margin: -10px;
+    padding: 35px;
+   
+}
+
+
+#nav_esquerda{
+    position: relative;
+    width: 20%;
+    height: 630px;
+    background-color: rgb(149, 146, 91);
+    float: left;
+}
+
+#nav_esquerda a{
+    display: block;
+    padding: 11px;
+    font-size: 29px;
+    color: white; /* cor do texto */
+    text-decoration: none;
+    background-color: #9f9c61; /* cor cinza dos links */
+    border-bottom: 1px solid #ffffff; /* separador entre links */
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+#nav_esquerda a:hover {
+    background-color: #666; 
+}
+
+section{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    height: 630px;
+    
+    float: left;
+}
+
+section header{
+    position: relative;
+    width: 95%;
+    height: 35px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 17px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+section div {
+    position: relative;
+    width: 95%;
+    height: 240px ;
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-left: 17px;
+    
+}
+
+section p {
+    position: relative;
+    width: 95%;
+    height: 150px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 17px;
+    color: black;
+    text-align: left;
+    font-size: 16px;
+}
+
+aside {
+    position: relative;
+    width: 20%;
+    height: 630px;   
+    background-color: pink; 
+    float: left;
+}
+
+.igual{
+    position: relative;
+    float: left;
+    width: 29.4%;
+    height: 110px;
+    margin-left: 17px;
+    margin-right: 5px;
+    background-color: rgb(64,64,64);
+    
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    clear: left;
+
+}
+
+
+.img_div_section {
+    width: 100%;
+    height: 240px;
+}
+
+.img_div{
+    width: 100%;
+    height: 110px;  
+    border: 0.5px solid black;  
+}
+
+.img_aside {
+    width: 100%;
+    height: 630px;
+}
